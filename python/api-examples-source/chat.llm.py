@@ -21,7 +21,7 @@ for message in st.session_state.messages:
 
 # Maximum allowed messages
 max_messages = (
-    20  # Counting both user and assistant messages, so 10 iterations of conversation
+    2000  # Counting both user and assistant messages, so 10 iterations of conversation
 )
 
 if len(st.session_state.messages) >= max_messages:
